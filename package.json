@@ -1,0 +1,13 @@
+{
+  "name": "tetris-pwa",
+  "version": "1.0.0",
+  "description": "A Tetris PWA game built with Phaser",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "http-server src -p 8080",
+    "build": "mkdir -p dist && cp -r src/* dist/"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
