@@ -1,7 +1,7 @@
 {
   "name": "俄罗斯方块 PWA",
   "short_name": "俄罗斯方块",
-  "start_url": "/tetris-pwa/",
+  "start_url": "/tetris-pwa",
   "display": "standalone",
   "background_color": "#333333",
   "theme_color": "#000000",

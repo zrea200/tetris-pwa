@@ -1,6 +1,6 @@
 const CACHE_NAME = "tetris-pwa-v1";
 const urlsToCache = [
-  "/tetris-pwa/",
+  "/tetris-pwa",
   "/tetris-pwa/index.html",
   "/tetris-pwa/manifest.json",
   "/tetris-pwa/assets/icons/icon-192x192.png",
