@@ -5,9 +5,12 @@
   "main": "src/index.html",
   "scripts": {
     "start": "http-server src -p 8080",
-    "build": "rm -rf dist && mkdir -p dist && cp -r src/* dist/ && rm -rf dist/**/.gitkeep",
+    "build": "rm -rf dist && mkdir -p dist && cp -r src/* dist/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "phaser": "^3.55.2"
   },
   "devDependencies": {
     "http-server": "^14.1.1",
